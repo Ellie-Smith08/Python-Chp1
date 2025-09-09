@@ -1,0 +1,70 @@
+# character = input("Enter a letter in: ")
+# #character = "A"
+# ascii = ord(character)
+# print(type(ascii))
+# print("The decimal value of your letter is:" ,ascii)
+# 
+# output = chr(ascii)
+# print(type(output))
+# print("The character" ,character, "represented by decimal value", ascii,"is: ",output)
+
+
+
+# character = input("Enter a letter A-Z: ")
+# key = int(input("Enter an number 1-9: "))
+# ascii = ord(character)
+# secretLetter = chr(ascii + key)
+# print("The encrypted Letter is: ", sec
+
+# 
+# string1 = "hELLo"
+# string1 = string1.capitalize()
+# print(string1)
+# 
+# string2 = ("HEllO")
+# print(string1)
+# 
+
+
+# string1 = "hello"
+# length = len(string1)
+# print(length)
+# print(type(string1))
+# 
+# 
+# 
+# 
+# string2 = "hello"
+# length = len(string2)
+# print(length)
+# print(type(string2))
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# string3 = "hello"
+# length = len(string3)
+# print(length)
+# print(type(string3))
+# 
+# 
+# 
+# 
+# 
+# 
+# string1 = "hello"
+# length = len(string4)
+# print(length)
+# print(type(string4))
+
+myName = "Ellie Smith"
+#length = len(myName)
+# print(length)
+# print(myName[0 : -4])
+lookfor = input("Enter letter: ")
+lookup = myName.__contains__(lookfor)
+print(type(lookup))
+print(lookup)

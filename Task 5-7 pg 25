@@ -1,0 +1,36 @@
+
+
+#Task 5
+# character = input("Enter a letter in: ")
+# ascii = ord(character)
+# print(type(ascii))
+# print("The decimal value of your letter is:" ,ascii)
+# 
+# character2 = input("Enter a letter in: ")
+# ascii = ord(character2)
+# print(type(ascii))
+# print("The decimal value of your letter is:" ,ascii)
+# 
+# character3 = input("Enter a letter in: ")
+# ascii = ord(character3)
+# print(type(ascii))
+# print("The decimal value of your letter is:" ,ascii)
+# 
+# character4 = input("Enter a letter in: ")
+# ascii = ord(character4)
+# print(type(ascii))
+# print("The decimal value of your letter is:" ,ascii)
+# 
+# character5 = input("Enter a letter in: ")
+# ascii = ord(character5)
+# print(type(ascii))
+# print("The decimal value of your letter is:" ,ascii)
+
+
+# Task 6
+
+# electricity = int(input("Enter the amount of units used ithis month: "))
+# unit = 0.19
+# standingcharge = 29.20
+# amountdue = (electricity * unit) + standingcharge
+# print("The amount you owe is: " , amountdue)

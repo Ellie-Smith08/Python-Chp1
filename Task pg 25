@@ -29,7 +29,7 @@
 
 # Task 6
 
-# electricity = int(input("Enter the amount of units used ithis month: "))
+# electricity = float(input("Enter the amount of units used ithis month: "))
 # unit = 0.19
 # standingcharge = 29.20
 # amountdue = (electricity * unit) + standingcharge

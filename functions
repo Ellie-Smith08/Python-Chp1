@@ -1,0 +1,40 @@
+def happyBirthday():
+    print("Happy birthday")
+def addition(a,b):
+    print(a + b)
+def multiply(a,b):
+    print(a * b)
+def subtract(a,b):
+    print(a - b)
+def divide(a,b):
+    print(a / b)
+def oddEven(a):
+    checker = a % 2
+    if checker == 0:
+       return True
+#     print(a, "is even!")
+    else:
+        return False
+#         print(a, "is odd")
+    
+    
+    
+    
+    
+    
+    
+number1 =int(input("Enter a Number:"))
+number2 =int(input("Enter a Number:"))
+  
+    
+    
+happyBirthday()
+addition(number1,number2)
+multiply(number1,number2)
+subtract(number1,number2)
+divide(number1,number2)
+# oddEven(number1)
+if oddEven(number1):
+    print("Even number")
+else:
+    print("Odd number")

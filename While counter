@@ -4,7 +4,66 @@
 #     counter += 1
 #     counter = counter =1
 
-counter = 20
-while counter >=10:
-    print(counter)
-    counter -= 1
+
+# password = input("Enter password:")
+# while password != "abc123":
+#     password = input("Wrong password - re enter password:")
+# print("Correct password entered")
+
+
+# #question2
+# def  average(a,b,c,d,e,f):
+#     print(a + b + c + d + e + f / 6)
+# num1 =int(input("Enter a Number:"))
+# num2 =int(input("Enter a Number:"))
+# num3 =int(input("Enter a Number:"))
+# num4 =int(input("Enter a Number:"))
+# num5 =int(input("Enter a Number:"))
+# num6 =int(input("Enter a Number:"))
+# average(num1,num2,num3,num4,num5,num6)
+
+
+
+
+
+# counter = 0
+# total = 0
+# while counter < 6:
+# #     print("Ask a question" , counter)
+#     question = int(input("Enter a number:"))
+#     total += question
+#     counter +=1
+# print("Avg +" , total/6)
+    
+
+
+
+
+
+
+#question3
+
+# user = input("Enter user:")
+# while user != "Maureen":
+#     user = input("Wrong user- try again:")
+# print("correct user- Welcome Maureen")
+# password = input("Enter password:")
+# while password != "abc123":
+#     password = input("Wrong password - re enter password:")
+# print("Correct password entered")
+
+
+#question 4
+
+limit = int(input("Enter limit:"))
+counter = 0
+even = 0
+odd = 0
+while counter < limit:
+    if counter % 2 == 0:
+        even += counter
+    else:
+        odd += counter
+    counter +=1
+print(even)
+print(odd)

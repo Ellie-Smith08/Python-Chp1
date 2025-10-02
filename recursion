@@ -1,0 +1,32 @@
+#n = 5
+# answer = 1
+# for i in range(n,1,-1):
+#     answer = answer * i
+# print(answer)
+# 
+# 
+# 
+# def factorial(n):
+#    if n==0:
+#    return 1
+#    else:
+#    return n*factotrial(n-1)
+# print(factorial(4))
+
+
+
+
+# def factorial(n):
+#     amswer = 1
+#     for i in range(n,1,-1):
+#     answer = answer * 1
+#     
+#     return answer
+# print(factorial(5))
+
+def factorial(n):
+    if n == 0:
+        return 1
+    
+    return n * factorial(n-1)
+print(factorial(5))

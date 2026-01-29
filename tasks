@@ -1,0 +1,26 @@
+
+user_password = input("Enter your password: ")
+
+file = open("password.txt", "r")
+ stored_password = file.read()
+
+
+
+if user_password == stored_password:
+    print("Password is correct!")
+else:
+    print("Password is incorrect.")
+
+
+
+numbers = []
+for i in range(10):
+    value = float(input(f"Enter numeric value {i + 1}: "))
+    numbers.append(value)
+
+file = open("numbers.csv", mode="w", newline="") as file:
+    writer = csv.writer(file)
+    writer.writerow(["Value"]) 
+    for num in numbers:
+        writer.writerow([num])
+print("10 values have been saved to numbers.csv")

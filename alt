@@ -1,0 +1,36 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+from statistics import mode
+
+
+data = pd.read_csv("student_productivity.csv")
+data = data[["gender","screen_time_hours","exercise_minutes","burnout_level"]]
+
+burnout_avg = data["burnout_level"].mean()
+print(burnout_avg)
+
+screen_time_hours_avg = data["screen_time_hours"].mean()
+print(screen_time_hours_avg)
+
+exercise_minutes_avg = data["exercise_minutes"].mean()
+print(exercise_minutes_avg)
+
+
+
+
+
+
+
+
+yearly_mean = data.groupby('gender')['burnout_level'].mean()
+
+
+plt.figure()
+plt.plot(yearly_mean.index, yearly_mean.values)
+plt.xlabel("Year")
+plt.ylabel("Average Magnitude")
+plt.title("Average Earthquake Magnitude (2000–2015)")
+plt.show()
+
+
+

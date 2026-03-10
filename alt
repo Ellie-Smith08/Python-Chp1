@@ -27,9 +27,9 @@ yearly_mean = data.groupby('gender')['burnout_level'].mean()
 
 plt.figure()
 plt.plot(yearly_mean.index, yearly_mean.values)
-plt.xlabel("Year")
-plt.ylabel("Average Magnitude")
-plt.title("Average Earthquake Magnitude (2000–2015)")
+plt.xlabel("BurnOut Level")
+plt.ylabel("BurnOut Level")
+plt.title("Student burnout levels")
 plt.show()
 
 

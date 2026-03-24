@@ -1,0 +1,128 @@
+background:black;
+font-family:arial;
+
+h1{
+color:black;
+size:60px;
+border-style:soild;
+border-color:black;
+border-widith:10p;
+padding:10px;
+border-radius:0px 20px 60px 10px;
+background-color:white;
+}
+h2{
+color:black;
+size:30px;
+border-style:soild;
+border-color:black;
+border-widith:10p;
+padding:10px;
+border-radius:0px 20px 60px 10px;
+background-color:white;
+}
+
+h3{
+color:black;
+size:30px;
+border-style:soild;
+border-color:black;
+border-widith:10p;
+padding:10px;
+border-radius:0px 20px 60px 10px;
+background-color:white;
+}
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Meanscoil Education </title>
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+
+<h1> Meanscoil Education </h1>
+
+<h2> Meánscoil Nua an Leith Triúigh is dedicated to providing a high standard of education through the Irish language, supporting both academic achievement and personal development. The school offers a broad curriculum that encourages students to reach their full potential while fostering a strong sense of culture and identity. With committed teachers and a supportive learning environment, students are guided to develop critical thinking, independence, and a lifelong love of learning.
+ </h2>
+
+<h3>625 Points Achievements: In August 2025, students Carla Qualter and Patrick Harrington-Stack both achieved the maximum 625 points, with plans to study Engineering and Pharmacy.
+Previous Top Achiever: Lucy Walsh achieved a perfect 625 points in 2018, including H1s in Higher Level Maths, Physics, Chemistry, D.C.G, Gaeilge and French, going on to study Engineering at UCD.</h3>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Meanscoil Sport </title>
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<h1> Meanscoil Sports </h1>
+
+<h2> Meánscoil Nua an Leith Triúigh has a strong tradition of promoting sport as an important part of student life. The school encourages participation in a wide range of activities, particularly Gaelic games like football and hurling, which are central to the local community. Students are given opportunities to develop teamwork, fitness, and discipline through regular training and competition. With supportive coaches and a focus on inclusion, sport at the school helps build confidence and school spirit among pupils. </h2>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Meanscoil  </title>
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<h1>Meánscoil Nua an Leith Triúigh </h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

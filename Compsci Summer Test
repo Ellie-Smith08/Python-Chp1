@@ -1,0 +1,27 @@
+#Task 1
+stuG = [45,97,9,10,8,85,64,56,1,4,25,36,78]
+print(stuG)
+len(stuG)
+print("There are",len(stuG),"grades")
+print(input("Enter your Grade:")) 
+
+
+stuG.append(100)
+print(stuG)
+
+stuG.sort(reverse=True)
+print(stuG)
+
+
+
+
+print("the highest grade is 100")
+print("the lowest grade is 10")
+
+
+
+#Task2
+kilometer = [float(input("How many kilometers are you travling?")) * .78]
+passengers = [float(input("How many people are traveling",)) * 2.50]
+taxiFare = kilometer + passengers
+print("The fair for the taxi is ", taxiFare)

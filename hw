@@ -1,0 +1,29 @@
+# Even or Odd Number Program
+
+number = int(input("Enter a number: "))
+
+if number % 2 == 0:
+    print("Number is even")
+else:
+    print("Number is odd")
+
+
+
+
+  # Weather and clothing program
+
+raining = input("Is it raining? (yes/no): ")
+
+if raining.lower() == "yes":
+    print("Wear a raincoat")
+else:
+    print("Wear normal clothes")
+
+cold = input("Is it cold? (yes/no): ")
+
+if cold.lower() == "yes":
+    print("Wear a jumper")
+else:
+    print("Wear a T-shirt")
+
+print("Ready to go out")

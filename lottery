@@ -1,0 +1,31 @@
+import random
+
+
+def generate_numbers():
+    numbers = []
+
+    for i in range(10):
+        number = random.randint(1, 100)
+        numbers.append(number)
+
+    return numbers
+
+
+user_numbers = []
+
+for i in range(3):
+    number = int(input("Enter a number: "))
+    user_numbers.append(number)
+
+computer_numbers = generate_numbers()
+
+print("\nYour numbers:", user_numbers)
+
+
+# CHALLENGE 1: The Number Hunt
+
+if all(number in computer_numbers for number in user_numbers):
+    print("You Won!")
+else:
+    print("Try Again!")
+    print("Computer's hidden list:", computer_numbers)

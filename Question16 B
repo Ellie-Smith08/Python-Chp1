@@ -1,0 +1,26 @@
+Ellie
+
+Question16 B
+
+fruits = ["apple","cherry","orange"]
+print("the initial list of fruits is:" , fruits) #To print initial list of fruits
+
+fruits.append(input("Enter additional fruit:"))
+print("The list of four fruits is:",fruits)
+winning_fruit = input("Nominste your winning fruit:")
+# print("The winning fruit you selected is:")
+
+
+while winning_fruit not in fruits:
+    print("Error: winning fruit must be in list")
+    break
+while winning_fruit in fruits:
+    print("The winning fruit you selected is:" ,winning_fruit)
+    break
+
+from random import choice
+
+random_fruit_1 = choice(fruits)
+random_fruit_2 = choice(fruits) 
+random_fruit_3 = choice(fruits)
+random_fruit_4 = choice(fruits)
